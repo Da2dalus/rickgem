@@ -7,4 +7,4 @@ end
 
 include Rickgem
 
-Rickgem.sing
+# Rickgem.sing
