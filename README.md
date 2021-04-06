@@ -22,10 +22,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-Rickgem.sing
+Rickgem.roll
 ```
-
-
 
 ## Development
 

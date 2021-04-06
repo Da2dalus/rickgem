@@ -1,10 +1,17 @@
 # require "rickgem/version"
 
+require 'launchy'
+
+include Launchy
+
 module Rickgem
   class Error < StandardError; end
-  `curl -s -L http://bit.ly/10hA8iC | bash`
+
+  def roll
+    system("curl -s -L http://bit.ly/10hA8iC | bash")
+  end
 end
 
 include Rickgem
 
-# Rickgem.sing
+# Rickgem.roll
